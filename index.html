@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My WebGIS</title>
+  
+  <!--Load Map Components from ArcGIS Maps SDK for Javascript: Content Delivery Network (CDN) via API}-->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.30/"></script>
+
+  <!--Create Link to CSS File for the Web App; It is Always Located in the Same File Path Folder-->
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+
+
+<body>
+  <header>
+    <img src="logo.jpg" alt="This is the Webmap Logo.">
+    <h1>Electric Distribution Cooperatives in the United States</h1>
+  </header>
+  <main>
+    <div id="sidebar"></div>
+    <div id="mapContainer1"></div>
+  </main>
+
+  <script src="app.js"></script>  
+</body>
+
+
+</html>

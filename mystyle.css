@@ -1,0 +1,46 @@
+html, body {
+    height: 100%; /* Ensures the entire page fills the viewport */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Aligns content vertically */
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #00AF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header img {
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  header h1 {
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  main {
+    display: flex; /* Enables flex properties for the main container. */
+    flex: 1; /* Takes up all available space after header. */
+  }
+  
+  #sidebar {
+    width: 160px; /* Fixed-width for the sidebar. */
+    background-color: rgb(247, 251, 248); /* Forest-Green Background. */
+  }
+  
+  #mapContainer1 {
+    flex: 1;
+    background-color: #000000;
+    background-image: url("https://arcgis.esri.de/wp-content/uploads/2021/12/Beitragsbild_Imagery_3D_CH-1160x682.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
